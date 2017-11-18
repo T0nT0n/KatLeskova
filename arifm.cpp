@@ -23,11 +23,6 @@ int main()
     cin >> a >> b;
     cout << endl;
 
-    if (a > b)
-        cout << "a > b" << endl;
-    else
-        cout << "a < b" << endl;
-
     for (int i = 0; i < b; i++)
         c = c * a;
 
